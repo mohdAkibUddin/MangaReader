@@ -9,7 +9,7 @@ chapter = input('What chapter do you want to read? Enter integers only: ')
 fileDirectory = input('Copy and paste the path of the directory you would like the manga to be stored in (Or press '
                       'enter to use the default storage): ')
 if fileDirectory == '':
-    fileDirectory = "./mangaStorage"
+    fileDirectory = "mangaStorage"
 mangaName = mangaName.replace(' ', '-')
 mangaNameClean = ''
 for letter in mangaName:
